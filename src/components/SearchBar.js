@@ -26,6 +26,14 @@ class SearchBar extends React.Component {
                             value={this.state.term}
                             onChange={this.onInputChange}    
                         />
+                        {/*
+                        <button style={{border: 'unset', background: 'unset'}}>
+                        <div className="ui animated fade button" tabindex="0">
+                        <div className="visible content">Ok csá</div>
+                        <div className="hidden content">Jön a vidi</div>
+                        </div>
+                        </button>
+                        */}      
                     </div>
                 </form>
             </div>
